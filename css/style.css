@@ -27,6 +27,7 @@ div.square{
     flex-basis: calc(100% / 10);
     background-color: lightcyan;
     border-radius: 5px;
+    cursor: pointer;
 
     
 }
