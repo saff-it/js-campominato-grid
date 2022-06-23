@@ -13,7 +13,7 @@ button{
 }
 
 
-#square-container{
+.square-container{
     height: 700px;
     width: 700px;
     border: 4px solid rgb(20, 133, 224);
