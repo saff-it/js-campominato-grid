@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(12, 12, 66);
+}
+
+
+#square-container{
+    height: 700px;
+    width: 700px;
+    border: 4px solid white;
+    margin: 50px auto;
+
+}
+
+div.square{
+    border: 2px solid white;
+    flex-basis: calc(100% / 10);
+}
+
+div.square.skyblue{
+    background-color: aqua;
+}
