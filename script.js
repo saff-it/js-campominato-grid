@@ -9,10 +9,11 @@ for ( let i = 0; i < 100; i++) {
     playButton.addEventListener('click', function(){
         const squareAdding = SquareAdd();
         
+        squareContainer.append(squareAdding);
 
     });
 
-    squareContainer.append(SquareAdd());
+    
     
 }
 
