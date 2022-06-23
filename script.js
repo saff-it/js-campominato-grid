@@ -7,11 +7,16 @@ const squareContainer = document.querySelector('.square-container');
 for ( let i = 0; i < 100; i++) {
 
     playButton.addEventListener('click', function(){
-        let squareElement = document.createElement('div');
-        squareElement.classList.add('square');
-
-        squareContainer.append(squareElement);
-
+        const squareAdding = SquareAdd();
+        
 
     });
+
+    
+}
+
+function SquareAdd(){
+    const newSquare = document.createElement('div');
+    newSquare.classList.add('square');
+    return newSquare;
 }
